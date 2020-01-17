@@ -17,7 +17,7 @@ const CourseMap = props => {
               <img className="img-fluid rounded shadow-lg" src={treepng}></img>
             </div>
 
-            <div className="col-4">
+            <div className="col-md-4">
               <h3 style={{ color: "orange" }}>Overview</h3>
               <p>
                 This website was created by scrapping the uvic course site with
@@ -61,7 +61,7 @@ const CourseMap = props => {
             </div>
           </div>
           <div className="row p-4">
-            <div class="col-6">
+            <div class="col-md-6">
               <h4 style={{ color: "orange" }}>Web Scrapping</h4>
 
               <p>
@@ -80,7 +80,7 @@ const CourseMap = props => {
                 Webscrapping Source
               </a>
             </div>
-            <div className="col-6">
+            <div className="col-md-6">
               <img className="img-fluid rounded shadow-lg" src={course}></img>
             </div>
           </div>

@@ -73,7 +73,7 @@ const LyricClassifier = () => (
     <div className="light_mode">
       <div className="container">
         <div className="row p-4">
-          <div className="col-4">
+          <div className="col-md-4">
             <h3>Overview</h3>
             <p>
               This report serves to identify if there exists a link between the
@@ -101,12 +101,12 @@ const LyricClassifier = () => (
               </a>
             </div>
           </div>
-          <div className="col-8">
+          <div className="col-md-8">
             <img className="img-fluid rounded shadow-lg" src={heatmap}></img>
           </div>
         </div>
         <div className="row p-4">
-          <div className="col-8">
+          <div className="col-md-8">
             <h4>Introduction</h4>
             <p>
               Online streaming platforms like Apple Music and Spotify add new
@@ -123,7 +123,7 @@ const LyricClassifier = () => (
               Machine learning and text lyric analysis can aid in this pursuit.
             </p>
           </div>
-          <div className="col-4">
+          <div className="col-md-4">
             <h4>Future Improvements</h4>
             <p>
               Using actual music as input, in addtion to lyrics would be
