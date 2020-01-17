@@ -39,10 +39,9 @@ const Section = props => {
 	return (
 		<InfoStyled>
 			<Controller>
-				<Scene triggerHook="onLeave" duration={800} pin>
+				<Scene triggerHook="onCenter" duration={scene.length}>
 					<Timeline wrapper={<div class="pinContainer" />}>
 						<h1>{scene.text.title}</h1>
-
 						{scene.jsx.static_top}
 
 						{scene.jsx.animation}
@@ -62,10 +61,6 @@ const Section = props => {
 							>
 								Github
 							</a>
-							<div className="scroll-cont text-center">
-								<div className="scroll"></div>
-								<p>Scroll</p>
-							</div>
 						</div>
 					</Timeline>
 				</Scene>

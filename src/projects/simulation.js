@@ -73,7 +73,9 @@ const simulation = {
 					helps to mitigate the packet reordering problem.`,
 		link: "https://github.com/NathanielJenkins/SimulationProject",
 		author: "Belliveau, Jenkins"
-	}
+	},
+	length: 800
+
 };
 
 export default simulation;
