@@ -13,8 +13,11 @@ const CourseMap = props => {
       <div className="dark_mode">
         <div className="container">
           <div className="row p-4">
-            <div className="col-8">
-              <img className="img-fluid rounded shadow-lg" src={treepng}></img>
+            <div className="col-md-8 mx-auto ">
+              <img
+                className="mb-2 img-fluid rounded shadow-lg"
+                src={treepng}
+              ></img>
             </div>
 
             <div className="col-md-4">

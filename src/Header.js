@@ -73,7 +73,7 @@ const Header = () => (
               <p className="lead">Nathan Jenkins</p>
             </span>
           </section>
-          <Tween from={{ x: "-100%" }} to={{ x: "0%" }}>
+          <Tween from={{ y: "100%" }} to={{ y: "0%" }}>
             <section className="panel turqoise">
               <span className="display-3">My Projects</span>
               <span className="display-4 thin">
@@ -86,7 +86,7 @@ const Header = () => (
               </div>
             </section>
           </Tween>
-          <Tween from={{ x: "100%" }} to={{ x: "0%" }}>
+          <Tween from={{ y: "-100%" }} to={{ y: "0%" }}>
             <section className="panel orange">
               <span className="display-3">Course Map</span>
               <span className="display-4 thin">
