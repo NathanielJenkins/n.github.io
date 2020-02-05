@@ -3,6 +3,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import CourseMap from "./CourseMap";
 import LyricClassifier from "./LyricClassifier";
+import Simulation from "./Simulation";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
@@ -14,10 +15,8 @@ class App extends Component {
       <React.Fragment>
         <Header />
         <CourseMap />
+        <Simulation />
         <LyricClassifier />
-        {/* <Section scene={machine} /> */}
-        {/* <Section scene={coursemap} />
-				<Section scene={simulation} /> */}
         <Footer />
       </React.Fragment>
     );
