@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import styled from "styled-components";
 
 import NavigationBar from "./NavigationBar";
@@ -28,72 +28,82 @@ const projectInfo = {
 	panelClass: "panel lavender",
 	svg: sim,
 };
-const Simulation = () => (
-	<Styled>
-		<NavigationBar />
-		<ProjectSectionHeader {...projectInfo} />
-		<div className="container">
-			<div className="row p-4">
-				<div className="col-md-4">
-					<h3>Overview</h3>
-					<p>
-						This project investigates the extent that the inclusion of a
-						priority queue in an intermediary router helps mitigate the problem
-						of packets reordering from the source to the destination in a
-						system.
-					</p>
-					<div className="btn-group btn-block">
-						<a
-							href="https://github.com/NathanielJenkins/SimulationProject/blob/master/Report%20Project.pdf"
-							type="button"
-							class="btn btn-outline-dark"
-							target="_blank"
-						>
-							Project Report
-						</a>
-						<a
-							href="https://github.com/NathanielJenkins/SimulationProject"
-							type="button"
-							class="btn btn-outline-dark"
-							target="_blank"
-						>
-							Github Source
-						</a>
+class Simulation extends Component {
+	state = {};
+	componentDidMount() {
+		window.scrollTo(0, 0);
+	}
+	render() {
+		return (
+			<Styled>
+				<NavigationBar />
+				<ProjectSectionHeader {...projectInfo} />
+				<div className="container">
+					<div className="row p-4">
+						<div className="col-md-4">
+							<h3>Overview</h3>
+							<p>
+								This project investigates the extent that the inclusion of a
+								priority queue in an intermediary router helps mitigate the
+								problem of packets reordering from the source to the destination
+								in a system.
+							</p>
+							<div className="btn-group btn-block">
+								<a
+									href="https://github.com/NathanielJenkins/SimulationProject/blob/master/Report%20Project.pdf"
+									class="btn btn-outline-dark"
+									target="_blank"
+								>
+									Project Report
+								</a>
+								<a
+									href="https://github.com/NathanielJenkins/SimulationProject"
+									class="btn btn-outline-dark"
+									target="_blank"
+								>
+									Github Source
+								</a>
+							</div>
+						</div>
+						<div className="col-md-8">
+							<img
+								className="img-fluid rounded shadow border"
+								src={delay}
+							></img>
+						</div>
+					</div>
+					<div className="row p-4">
+						<div className="col-md-6">
+							<img className="img-fluid" src={model}></img>
+						</div>
+						<div className="col-md-6">
+							<h4>Description</h4>
+							<p>
+								The two simulation models were evaluated with the following
+								specification and details.
+							</p>
+							<h6>System 1 Packet Ordering</h6>
+							<p>
+								System 1 Packet Ordering: The system uses two queues marked high
+								and low. An incoming packet is marked as inorder if the router
+								current sequence number is less than the incoming packet
+								sequence and placed into the low priority queue. The incoming
+								packet is marked as out of order if the router current sequence
+								number is greater than the incoming packet and placed into the
+								high queue. The packets are ordered within the respective queues
+								according to a FIFO.
+							</p>
+							<h6>System 2 Packet Ordering</h6>
+							<p>
+								An incoming packet will be placed into the single queue and will
+								be served according to a FIFO strategy.
+							</p>
+						</div>
 					</div>
 				</div>
-				<div className="col-md-8">
-					<img className="img-fluid rounded shadow border" src={delay}></img>
-				</div>
-			</div>
-			<div className="row p-4">
-				<div className="col-md-6">
-					<img className="img-fluid" src={model}></img>
-				</div>
-				<div className="col-md-6">
-					<h4>Description</h4>
-					<p>
-						The two simulation models were evaluated with the following
-						specification and details.
-					</p>
-					<h6>System 1 Packet Ordering</h6>
-					<p>
-						System 1 Packet Ordering: The system uses two queues marked high and
-						low. An incoming packet is marked as inorder if the router current
-						sequence number is less than the incoming packet sequence and placed
-						into the low priority queue. The incoming packet is marked as out of
-						order if the router current sequence number is greater than the
-						incoming packet and placed into the high queue. The packets are
-						ordered within the respective queues according to a FIFO.
-					</p>
-					<h6>System 2 Packet Ordering</h6>
-					<p>
-						An incoming packet will be placed into the single queue and will be
-						served according to a FIFO strategy.
-					</p>
-				</div>
-			</div>
-		</div>
-	</Styled>
-);
+			</Styled>
+		);
+	}
+}
 
 export default Simulation;

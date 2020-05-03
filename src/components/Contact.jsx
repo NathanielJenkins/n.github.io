@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Table } from "react-bootstrap";
+
+import NavigationBar from "./NavigationBar";
 const Styled = styled.div``;
 
 class Contact extends Component {
@@ -9,10 +11,19 @@ class Contact extends Component {
 	render() {
 		return (
 			<Styled>
-				<Container>
-					<Row>
-						<Col>Email : njboale-at-gmail.com</Col>
-					</Row>
+				<NavigationBar />
+				<Container className="mt-4">
+					<h1 className="text-center">Contact</h1>
+					<hr></hr>
+
+					<Table striped bordered variant="light">
+						<tbody>
+							<tr>
+								<td>Email</td>
+								<td>njboale **at** gmail.com</td>
+							</tr>
+						</tbody>
+					</Table>
 				</Container>
 			</Styled>
 		);

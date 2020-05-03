@@ -28,6 +28,9 @@ const projectInfo = {
 
 class LyricClassifier extends Component {
 	state = {};
+	componentDidMount() {
+		window.scrollTo(0, 0);
+	}
 	render() {
 		return (
 			<Styled>
@@ -40,7 +43,7 @@ class LyricClassifier extends Component {
 							<p>
 								This report serves to identify if there exists a link between
 								the lyrics of a song and genre that the song belongs to. The
-								notebook will analyses the effectiveness of different machine
+								notebook will analyze the effectiveness of different machine
 								learning techniques, algorithms and natural language processing
 								tools to determine the correlation between lyrics and musical
 								genres.
@@ -48,7 +51,6 @@ class LyricClassifier extends Component {
 							<div className="btn-group btn-block">
 								<a
 									href="https://github.com/NathanielJenkins/LyricGenreClassifier/blob/final/project.ipynb"
-									type="button"
 									class="btn btn-outline-dark"
 									target="_blank"
 								>
@@ -56,7 +58,6 @@ class LyricClassifier extends Component {
 								</a>
 								<a
 									href="https://github.com/NathanielJenkins/LyricGenreClassifier"
-									type="button"
 									class="btn btn-outline-dark"
 									target="_blank"
 								>

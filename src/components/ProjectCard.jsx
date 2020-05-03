@@ -4,13 +4,17 @@ import { Col, Row, Card, Button, ButtonGroup } from "react-bootstrap";
 import styled from "styled-components";
 const Styled = styled.div`
 	.card-text {
-		color: darkgrey !important;
+		color: grey !important;
+	}
+	
+	.card {
+		min-height 350px; 
 	}
 
 	.thumbnail {
 		max-height: 350px;
 		max-width: 350px;
-		margin: 10px;
+		padding: 10px; 
 	}
 `;
 
@@ -21,17 +25,15 @@ class ProjectCard extends Component {
 			<Styled>
 				<Row>
 					<Col>
-						<Card className="shadow mb-2">
+						<Card className="shadow mb-4">
 							<Row>
 								<Col className="text-center" xl={4}>
-									<img className="border thumbnail" src={this.props.img}></img>
+									<img className="thumbnail" src={this.props.img}></img>
 								</Col>
 								<Col xl={6}>
 									<Card.Body>
 										<Card.Title>{this.props.title}</Card.Title>
-										<Card.Subtitle className="text-muted mb-2">
-											{this.props.subtitle}
-										</Card.Subtitle>
+										<Card.Subtitle></Card.Subtitle>
 										<Card.Text>{this.props.overview}</Card.Text>
 										{this.props.learn ? (
 											<a href={this.props.learn}> Learn More</a>
@@ -52,9 +54,9 @@ class ProjectCard extends Component {
 											>
 												Github
 											</Button>
-											{this.props.view ? (
-												<Button href={this.props.view} variant="dark">
-													View
+											{this.props.demo ? (
+												<Button href={this.props.demo} variant="dark">
+													Demo
 												</Button>
 											) : null}
 										</ButtonGroup>

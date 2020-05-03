@@ -5,6 +5,7 @@ import ProjectCard from "./ProjectCard";
 import courseMapImg from "../img/coursemap.png";
 import rayTracing from "../img/raytrace.bmp";
 import networking from "../img/networking1.png";
+import ml from "../img/heatmap.png";
 
 const Styled = styled.div``;
 
@@ -37,6 +38,19 @@ const cardInfo = [
 		view:
 			"https://github.com/NathanielJenkins/SimulationProject/blob/master/Report%20Project.pdf",
 		learn: "projects/simulation",
+	},
+	{
+		title: "Lyric Genre Classifier",
+		subtitle: "Machine Learning",
+		img: ml,
+		overview: `This project serves to identify if there exists a link between the lyrics of a song and genre that the song belongs to. The notebook will analyze the effectiveness of different machine
+			learning techniques, algorithms and natural language processing
+			tools to determine the correlation between lyrics and musical
+			genres.`,
+		github: "https://github.com/NathanielJenkins/LyricGenreClassifier",
+		view:
+			"https://github.com/NathanielJenkins/LyricGenreClassifier/blob/final/project.ipynb",
+		learn: "projects/lyricclassifier",
 	},
 ];
 

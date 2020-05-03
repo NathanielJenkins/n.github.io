@@ -40,10 +40,6 @@ const Styled = styled.div`
 `;
 
 class App extends Component {
-	componentDidMount() {
-		document.title = "Nathan Jenkins-Boale";
-	}
-
 	render() {
 		return (
 			<Router>
@@ -60,6 +56,15 @@ class App extends Component {
 						</Route>
 						<Route path="/projects/coursemap">
 							<CourseMap />
+						</Route>
+						<Route path="/projects/raytracer">
+							I have not created a description page for the ray tracer at the
+							moment so for now feel free to check the github at--
+							<a href="https://github.com/NathanielJenkins/rayTracer">
+								this location
+							</a>
+							--. All of the files are there and a short description in the
+							readme.md file.
 						</Route>
 						<Route path="/contact">
 							<Contact />

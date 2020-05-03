@@ -44,7 +44,7 @@ class ProjectSection extends Component {
 			<Styled>
 				<div className="pinContainer">
 					<section className={this.props.panelClass}>
-						<h1 className="mt-4">{this.props.title}</h1>
+						<h1 className="mt-3">{this.props.title}</h1>
 						<h2>{this.props.subtitle}</h2>
 
 						<div className="img-container">

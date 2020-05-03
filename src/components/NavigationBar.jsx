@@ -39,30 +39,30 @@ class NavigationBar extends Component {
 								title="Projects"
 								id="basic-nav-dropdown"
 							>
-								<NavDropdown.Item>
-									<Link
-										to="/projects/coursemap"
-										className="link text-uppercase right-justify nav-item"
-									>
-										Course Map
-									</Link>
-								</NavDropdown.Item>
-								<NavDropdown.Item>
-									<Link
-										to="/projects/lyricclassifier"
-										className="link text-uppercase right-justify nav-item"
-									>
-										Lyric Classifier
-									</Link>
-								</NavDropdown.Item>
-								<NavDropdown.Item>
-									<Link
-										to="/projects/simulation"
-										className="link text-uppercase right-justify nav-item"
-									>
-										Networking Sim
-									</Link>
-								</NavDropdown.Item>
+								<Link
+									to="/projects/coursemap"
+									className="link text-uppercase right-justify dropdown-item"
+								>
+									Course Map
+								</Link>
+								<Link
+									to="/projects/raytracer"
+									className="link text-uppercase dropdown-item right-justify"
+								>
+									Ray Tracer
+								</Link>
+								<Link
+									to="/projects/lyricclassifier"
+									className="link text-uppercase right-justify dropdown-item"
+								>
+									Lyric Classifier
+								</Link>
+								<Link
+									to="/projects/simulation"
+									className="link text-uppercase right-justify dropdown-item"
+								>
+									Networking Sim
+								</Link>
 							</NavDropdown>
 							<Nav.Link>
 								<Link to="/contact" className="link text-uppercase nav-item">
