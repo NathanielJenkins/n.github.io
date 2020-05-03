@@ -16,6 +16,8 @@ const Styled = styled.div`
 		max-width: 350px;
 		padding: 10px; 
 	}
+
+	overflow : hidden; 
 `;
 
 class ProjectCard extends Component {
@@ -28,7 +30,10 @@ class ProjectCard extends Component {
 						<Card className="shadow mb-4">
 							<Row>
 								<Col className="text-center" xl={4}>
-									<img className="thumbnail" src={this.props.img}></img>
+									<img
+										className="img-responsive thumbnail"
+										src={this.props.img}
+									></img>
 								</Col>
 								<Col xl={6}>
 									<Card.Body>
