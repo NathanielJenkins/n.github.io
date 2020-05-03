@@ -1,33 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b5687ff.chunk.css",
-    "main.js": "/static/js/main.600009a5.chunk.js",
-    "main.js.map": "/static/js/main.600009a5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1e323870.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1e323870.js.map",
+    "main.js": "/static/js/main.f00cb028.chunk.js",
+    "main.js.map": "/static/js/main.f00cb028.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.22e5a9a2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.22e5a9a2.js.map",
     "static/css/2.17e5ed98.chunk.css": "/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.58ad3d8b.chunk.js": "/static/js/2.58ad3d8b.chunk.js",
-    "static/js/2.58ad3d8b.chunk.js.map": "/static/js/2.58ad3d8b.chunk.js.map",
+    "static/js/2.f5c5942b.chunk.js": "/static/js/2.f5c5942b.chunk.js",
+    "static/js/2.f5c5942b.chunk.js.map": "/static/js/2.f5c5942b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.76e87f35a3c3d7f5a7ea495d70e64573.js": "/precache-manifest.76e87f35a3c3d7f5a7ea495d70e64573.js",
+    "precache-manifest.72fa08081fcfa8ad0af06dd6b5c873c8.js": "/precache-manifest.72fa08081fcfa8ad0af06dd6b5c873c8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.0b5687ff.chunk.css.map": "/static/css/main.0b5687ff.chunk.css.map",
-    "static/js/2.58ad3d8b.chunk.js.LICENSE": "/static/js/2.58ad3d8b.chunk.js.LICENSE",
-    "static/media/code.svg": "/static/media/code.6bd4a33c.svg",
+    "static/js/2.f5c5942b.chunk.js.LICENSE": "/static/js/2.f5c5942b.chunk.js.LICENSE",
     "static/media/course.png": "/static/media/course.83d411fe.png",
-    "static/media/delay.png": "/static/media/delay.a52e5a5b.png",
+    "static/media/coursemap.png": "/static/media/coursemap.359ad7ba.png",
     "static/media/heatmap.png": "/static/media/heatmap.ab59deaa.png",
     "static/media/ml.svg": "/static/media/ml.5cc141d0.svg",
     "static/media/model.png": "/static/media/model.66c32700.png",
+    "static/media/networking1.png": "/static/media/networking1.a52e5a5b.png",
+    "static/media/raytrace.bmp": "/static/media/raytrace.83e3fa2c.bmp",
     "static/media/simulation.svg": "/static/media/simulation.3cdd4621.svg",
-    "static/media/tree.png": "/static/media/tree.e5921559.png"
+    "static/media/tree.svg": "/static/media/tree.1ff53769.svg",
+    "static/media/waterfall.jpg": "/static/media/waterfall.5c080b61.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1e323870.js",
+    "static/js/runtime-main.22e5a9a2.js",
     "static/css/2.17e5ed98.chunk.css",
-    "static/js/2.58ad3d8b.chunk.js",
-    "static/css/main.0b5687ff.chunk.css",
-    "static/js/main.600009a5.chunk.js"
+    "static/js/2.f5c5942b.chunk.js",
+    "static/js/main.f00cb028.chunk.js"
   ]
 }
