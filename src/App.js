@@ -6,6 +6,7 @@ import LyricClassifier from "./components/LyricClassifier";
 import Simulation from "./components/Simulation";
 import CourseMap from "./components/CourseMap";
 import Contact from "./components/Contact";
+import RayTracer from "./components/RayTracer";
 
 import styled from "styled-components";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -42,29 +43,26 @@ const Styled = styled.div`
 class App extends Component {
 	render() {
 		return (
-			<Router>
+			<Router basename={process.env.PUBLIC_URL}>
 				<Styled>
 					<Switch>
-						<Route exact path="/">
+						<Route exact path={process.env.PUBLIC_URL + "/"}>
 							<Home />
 						</Route>
-						<Route path="/projects/lyricclassifier">
+						<Route
+							exact
+							path={process.env.PUBLIC_URL + "/projects/lyricclassifier"}
+						>
 							<LyricClassifier />
 						</Route>
-						<Route path="/projects/simulation">
+						<Route exact path={process.env.PUBLIC_URL + "/projects/simulation"}>
 							<Simulation />
 						</Route>
-						<Route path="/projects/coursemap">
+						<Route exact path={process.env.PUBLIC_URL + "/projects/coursemap"}>
 							<CourseMap />
 						</Route>
-						<Route path="/projects/raytracer">
-							I have not created a description page for the ray tracer at the
-							moment so for now feel free to check the github at--
-							<a href="https://github.com/NathanielJenkins/rayTracer">
-								this location
-							</a>
-							--. All of the files are there and a short description in the
-							readme.md file.
+						<Route exact path={process.env.PUBLIC_URL + "/projects/raytracer"}>
+							<RayTracer />
 						</Route>
 						<Route path="/contact">
 							<Contact />

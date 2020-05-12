@@ -49,7 +49,7 @@ class CourseMap extends Component {
 							></img>
 						</div>
 
-						<div className="col-md-4">
+						<div className="col-md-4 mt-2">
 							<h3 style={{ color: "orange" }}>Overview</h3>
 							<p>
 								This website was created by scrapping the uvic course site with
@@ -57,6 +57,11 @@ class CourseMap extends Component {
 								three tables in the database, course, operations and
 								precombinations. Courses may have many types of operations and
 								operations may have many of different courses.
+							</p>
+							<p>
+								<b>Notice:</b> This project is hosted on a free heroku account
+								so the initial loading period may take some time to wake the
+								application, after which it will work normally.
 							</p>
 							<div className="btn-group btn-block">
 								<a
@@ -110,7 +115,7 @@ class CourseMap extends Component {
 								Webscrapping Source
 							</a>
 						</div>
-						<div className="col-md-6">
+						<div className="col-md-6 mt-4">
 							<img className="img-fluid rounded shadow-lg" src={course}></img>
 						</div>
 					</div>

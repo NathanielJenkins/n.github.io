@@ -7,14 +7,19 @@ const Styled = styled.div`
 		color: grey !important;
 	}
 	
-	.card {
+	.card-row {
 		min-height 350px; 
 	}
 
 	.thumbnail {
-		max-height: 350px;
-		max-width: 350px;
-		padding: 10px; 
+		max-height: 350px; 
+		padding: 10px; 		
+	}
+
+	.vh-center { 
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
 	}
 
 	overflow : hidden; 
@@ -28,10 +33,10 @@ class ProjectCard extends Component {
 				<Row>
 					<Col>
 						<Card className="shadow mb-4">
-							<Row>
-								<Col className="text-center" xl={4}>
+							<Row className="card-row">
+								<Col xl={4} className="border-right d-flex text-center">
 									<img
-										className="img-responsive thumbnail"
+										className="mx-auto my-auto img-fluid thumbnail"
 										src={this.props.img}
 									></img>
 								</Col>
@@ -43,6 +48,9 @@ class ProjectCard extends Component {
 										{this.props.learn ? (
 											<a href={this.props.learn}> Learn More</a>
 										) : null}
+										<hr />
+										<Card.Text className="mb-1">Learning Outcomes:</Card.Text>
+										<blockquote className="text-">{this.props.lo}</blockquote>
 									</Card.Body>
 								</Col>
 								<Col xl={2}>
@@ -56,11 +64,16 @@ class ProjectCard extends Component {
 												href={this.props.github}
 												block
 												variant="outline-dark"
+												target="_blank"
 											>
 												Github
 											</Button>
 											{this.props.demo ? (
-												<Button href={this.props.demo} variant="dark">
+												<Button
+													target="_blank"
+													href={this.props.demo}
+													variant="dark"
+												>
 													Demo
 												</Button>
 											) : null}

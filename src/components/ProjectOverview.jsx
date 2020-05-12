@@ -6,6 +6,7 @@ import courseMapImg from "../img/coursemap.png";
 import rayTracing from "../img/raytrace.bmp";
 import networking from "../img/networking1.png";
 import ml from "../img/heatmap.png";
+import react_logo from "../img/react-logo.png";
 
 const Styled = styled.div``;
 
@@ -17,16 +18,33 @@ const cardInfo = [
 		overview:
 			"This website creates a map of the prerequisites required to take a course at UVIC. This website was created by scrapping the UVIC course site with beautiful and creating a database of dependencies. Please note that the site is hosted on a free heroku account so the initially loading period (waking it from sleep) may take a minute, after which it will work fine",
 		github: "https://github.com/NathanielJenkins/Course_Map",
-		view: "https://coursemap.herokuapp.com/",
+		demo: "https://coursemap.herokuapp.com/",
 		learn: "projects/coursemap",
+		lo:
+			"webscraping (beautiful soup), flask, python, javascript, mysql, relational recursive database structure",
 	},
 	{
 		title: "Ray Tracing",
 		subtitle: "Computer Graphics",
 		img: rayTracing,
-		overview:
-			"This ray tracer was built from the ground up. It features specular reflection, diffuse reflection, mesh mapping, texture mapping, shadows, point/directional lighting and multi-sampling techniques. An example image is shown on the right. In order to run program yourself you need CMake, python, C++.",
+		overview: `
+		This ray tracer was built from the ground up. 
+		It features specular reflection, diffuse reflection, 
+		mesh mapping, texture mapping, shadows, point/directional 
+		lighting, parallelization and multi-sampling/anti-aliasing techniques. An example image is shown on the right. In order to run program yourself you need CMake, python, C++.`,
 		github: "https://github.com/NathanielJenkins/rayTracer",
+		learn: "projects/rayTracer",
+		lo:
+			"Modern, scalable C++, computer graphics/computer rendering fundamentals, graphics math foundations",
+	},
+	{
+		title: " (In Progress) Songbird Mobile App + API",
+		subtitle: "Mobile app + API",
+		img: react_logo,
+		overview:
+			"Building an app that allows musicians to connect with venues easier. So far I have written the user authentication on both FE and BE",
+		github: "https://github.com/NathanielJenkins/JoFi",
+		lo: "Express Api Nodejs, React Native, Mongodb (mongoose)",
 	},
 	{
 		title: "Priority Queueing to Alleviate Packet Re-ordering Problem",
@@ -35,9 +53,10 @@ const cardInfo = [
 		overview:
 			"This project investigates the extent that the inclusion of a priority queue in an intermediary router helps mitigate the problem of packets reordering from the source to the destination in a system",
 		github: "https://github.com/NathanielJenkins/SimulationProject",
-		view:
+		demo:
 			"https://github.com/NathanielJenkins/SimulationProject/blob/master/Report%20Project.pdf",
 		learn: "projects/simulation",
+		lo: "Java, data analysis, real world modeling",
 	},
 	{
 		title: "Lyric Genre Classifier",
@@ -48,9 +67,10 @@ const cardInfo = [
 			tools to determine the correlation between lyrics and musical
 			genres.`,
 		github: "https://github.com/NathanielJenkins/LyricGenreClassifier",
-		view:
+		demo:
 			"https://github.com/NathanielJenkins/LyricGenreClassifier/blob/final/project.ipynb",
 		learn: "projects/lyricclassifier",
+		lo: "python, numpy, sklearn, seaborn, nltk, jupyter notebook",
 	},
 ];
 
