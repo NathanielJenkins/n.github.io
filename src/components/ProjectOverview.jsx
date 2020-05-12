@@ -94,7 +94,7 @@ class ProjectOverview extends Component {
 		return (
 			<Styled>
 				<Container>
-					<h1>My Projects</h1>
+					<h1 className="mb-4">My Projects</h1>
 					{this.createCards()}
 				</Container>
 			</Styled>
