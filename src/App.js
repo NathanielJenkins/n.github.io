@@ -11,6 +11,9 @@ import RayTracer from "./components/RayTracer";
 import styled from "styled-components";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Styled = styled.div`
 	h1 {
 		font-family: "Helvetica Neue", sans-serif;
@@ -41,6 +44,14 @@ const Styled = styled.div`
 `;
 
 class App extends Component {
+	constructor(props) {
+		super(props);
+	}
+
+	componentDidMount() {
+		AOS.init();
+	}
+
 	render() {
 		return (
 			<Router basename={process.env.PUBLIC_URL}>

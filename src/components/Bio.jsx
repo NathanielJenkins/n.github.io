@@ -2,19 +2,33 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import jumboImg from "../img/waterfall.jpg";
 import { Jumbotron, Card, Container, Row, Col } from "react-bootstrap";
+import ReactVivus from "react-vivus";
+import svg from "../img/hi.svg";
 
 const Styled = styled.div`
 	.jumbotron {
 		background-image: url(${jumboImg});
-		background-size: cover;
 		height: 100vh;
 		padding-top: 15%;
+
+		background-attachment: fixed;
+		background-repeat: no-repeat;
 		background-position: right;
+		background-size: cover;
 	}
 
 	.card {
 		color: #dbe1e7 !important;
-		background: rgba(0, 0, 0, 0.9) !important;
+		background: rgba(0, 0, 0, 0.8) !important;
+	}
+
+	hr {
+		display: block;
+		height: 1px;
+		border: 0;
+		border-top: 2px solid #ccc;
+		margin: 1em 0;
+		padding: 0;
 	}
 `;
 
@@ -44,7 +58,17 @@ class InformationCard extends Component {
 		return (
 			<Card className="shadow-lg rounded">
 				<Card.Body>
-					<h1 mb-4>Nathan Jenkins</h1>
+					<ReactVivus
+						id="Name"
+						option={{
+							file: svg,
+							animTimingFunction: "linear",
+							type: "sync",
+							duration: 1500,
+						}}
+						style={{ height: "100px", maxWidth: "500px" }}
+					/>
+					<hr />
 					<br />
 					<Card.Text>
 						Hello, this is relatively new website and a work in progress.
