@@ -56,7 +56,7 @@ class InformationCard extends Component {
 	state = {};
 	render() {
 		return (
-			<Card className="shadow-lg rounded" data-aos="zoom-in-down">
+			<Card className="shadow-lg rounded">
 				<Card.Body>
 					<ReactVivus
 						id="Name"
