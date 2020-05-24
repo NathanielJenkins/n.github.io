@@ -37,7 +37,7 @@ class ProjectCard extends Component {
 	state = {};
 	render() {
 		return (
-			<Styled data-aos="fade-up">
+			<Styled data-aos="fade-down">
 				<Card className="shadow mb-4">
 					<Container>
 						<Row className="card-row">

@@ -10,7 +10,7 @@ class Home extends Component {
 			<React.Fragment>
 				<NavigationBar />
 				<Header />
-				<ProjectOverview />
+				{/* <ProjectOverview /> */}
 			</React.Fragment>
 		);
 	}

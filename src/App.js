@@ -32,14 +32,31 @@ const Styled = styled.div`
 		text-align: center;
 	}
 
+	h3 {
+		font-family: "Helvetica Neue", sans-serif;
+		font-size: 30px;
+		font-weight: 200;
+		letter-spacing: 5px;
+	}
+
+	h4 {
+		font-family: "Helvetica Neue", sans-serif;
+		font-size: 24px;
+		font-weight: 300;
+		letter-spacing: 3px;
+	}
+
+	.title {
+		font-family: "eurostile", sans-serif;
+		font-weight: 800;
+	}
+
 	p {
 		font-family: "Helvetica Neue", sans-serif;
 		font-size: 18px;
-		line-height: 24px;
+		font-weight: 400;
+		line-height: 32px;
 		margin: 0 0 24px;
-		text-align: justify;
-		text-justify: inter-word;
-		color: lightgrey;
 	}
 `;
 

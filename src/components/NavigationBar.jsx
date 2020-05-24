@@ -5,13 +5,13 @@ import styled from "styled-components";
 
 const Styled = styled.div`
 	.navbar {
-		background-color: black !important;
 		z-index: 100 !important;
+		background-color: white !important;
 	}
 
 	.link {
 		text-decoration: none !important;
-		color: grey !important;
+		color: #10182f !important;
 		margin-right: 10px !important;
 
 		&:hover {
@@ -25,7 +25,7 @@ class NavigationBar extends Component {
 	render() {
 		return (
 			<Styled>
-				<Navbar bg="dark" className="navbar navbar-dark bg-dark" expand="lg">
+				<Navbar bg="light" className="navbar" expand="lg">
 					<Navbar.Brand href="#home">
 						<Link to="/" className="link nav-item">
 							Home
@@ -35,37 +35,37 @@ class NavigationBar extends Component {
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="ml-auto">
 							<NavDropdown
-								className="link text-uppercase right-justify nav-item"
+								className="link  right-justify nav-item"
 								title="Projects"
 								id="basic-nav-dropdown"
 							>
 								<Link
 									to="/projects/coursemap"
-									className="link text-uppercase right-justify dropdown-item"
+									className="link  right-justify dropdown-item"
 								>
 									Course Map
 								</Link>
 								<Link
 									to="/projects/raytracer"
-									className="link text-uppercase dropdown-item right-justify"
+									className="link  dropdown-item right-justify"
 								>
 									Ray Tracer
 								</Link>
 								<Link
 									to="/projects/lyricclassifier"
-									className="link text-uppercase right-justify dropdown-item"
+									className="link  right-justify dropdown-item"
 								>
 									Lyric Classifier
 								</Link>
 								<Link
 									to="/projects/simulation"
-									className="link text-uppercase right-justify dropdown-item"
+									className="link  right-justify dropdown-item"
 								>
 									Networking Sim
 								</Link>
 							</NavDropdown>
 							<Nav.Link>
-								<Link to="/contact" className="link text-uppercase nav-item">
+								<Link to="/contact" className="link  nav-item">
 									Contact
 								</Link>
 							</Nav.Link>
