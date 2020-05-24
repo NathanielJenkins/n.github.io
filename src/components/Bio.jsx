@@ -79,10 +79,6 @@ const Styled = styled.div`
 
 	}
 
-	#profile {
-		max-width: 400px; 
-	}
-
 	.cards {
 		background-color: #3A5D67; 
 		position: relative; 
@@ -104,10 +100,10 @@ const Styled = styled.div`
 	}
 
 	.card-image{
-		max-height: 280px; 
+
 	}
 	.card-img-container{
-		min-height: 300px
+
 	}
 
 	.list-group-item {
@@ -162,7 +158,7 @@ class Bio extends Component {
 					<Container>
 						<Row className="mb-4">
 							<Col md>
-								<div className="text-center mx-auto d-block w-100">
+								<div className="text-center mx-auto w-100">
 									<h1 className="title">Hello, I'm Nathan</h1>
 									<h3>Software Developer, Computer Science </h3>
 									<img
@@ -170,7 +166,7 @@ class Bio extends Component {
 										alt="profile"
 										id="profile"
 										src={me}
-										className="img-fluid"
+										className="img-fluid img-responsive"
 									></img>
 								</div>
 							</Col>
@@ -269,10 +265,10 @@ class InformationCard extends Component {
 			listGroup.push(<ListGroupItem key={index}>{value}</ListGroupItem>);
 		}
 		return (
-			<Card className="text-center mx-auto shadow">
-				<div className="my-auto card-img-container">
+			<Card className="text-center h-100 mx-auto shadow">
+				<div className="my-auto card-img-container w-100">
 					<Card.Img
-						className="img-responsive card-image mb-2 p-3"
+						className="img-responsive img-fluid card-image mb-2 p-3"
 						src={this.props.img}
 					></Card.Img>
 				</div>
