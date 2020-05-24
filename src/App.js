@@ -15,6 +15,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Styled = styled.div`
+	overflow: hidden;
 	h1 {
 		font-family: "Helvetica Neue", sans-serif;
 		font-size: 54px;

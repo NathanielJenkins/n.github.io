@@ -24,21 +24,10 @@ import img1 from "../img/artguy.png";
 
 const Styled = styled.div`
 	.jumbotron {
-		// background-image: url(${jumboImg});
+		min-height: 100vh; 
 		background-color: transparent !important;
-		// background-attachment: fixed;
-		// background-repeat: no-repeat;
-		// background-position: right;
-		// background-size: cover;
-		height: 95vh; 
+	
 	}
-
-
-	#profile {
-		max-height: 400px;
-		max-width: 400px;
-	}
-
 	hr {
 		display: block;
 		height: 1px;
@@ -88,6 +77,10 @@ const Styled = styled.div`
 	
 		}
 
+	}
+
+	#profile {
+		max-width: 400px; 
 	}
 
 	.cards {
@@ -169,10 +162,11 @@ class Bio extends Component {
 					<Container>
 						<Row className="mb-4">
 							<Col md>
-								<div className="text-center">
+								<div className="text-center mx-auto d-block w-100">
 									<h1 className="title">Hello, I'm Nathan</h1>
 									<h3>Software Developer, Computer Science </h3>
 									<img
+										data-aos="zoom-in"
 										alt="profile"
 										id="profile"
 										src={me}
@@ -190,7 +184,11 @@ class Bio extends Component {
 									href="https://github.com/NathanielJenkins"
 									rel="noopener noreferrer"
 								>
-									<FontAwesomeIcon size="4x" icon={faGithub} />
+									<FontAwesomeIcon
+										data-aos="float-down"
+										size="4x"
+										icon={faGithub}
+									/>
 								</a>
 							</Col>
 							<Col xs>
@@ -200,7 +198,11 @@ class Bio extends Component {
 									href="https://www.linkedin.com/in/nathan-jenkins-boale-17b933129/"
 									rel="noopener noreferrer"
 								>
-									<FontAwesomeIcon size="4x" icon={faLinkedin} />
+									<FontAwesomeIcon
+										data-aos="float-down"
+										size="4x"
+										icon={faLinkedin}
+									/>
 								</a>
 							</Col>
 							<Col xs>
@@ -210,7 +212,11 @@ class Bio extends Component {
 									href="mailto:njboale@gmail.com"
 									rel="noopener noreferrer"
 								>
-									<FontAwesomeIcon size="4x" icon={faEnvelope} />
+									<FontAwesomeIcon
+										data-aos="float-down"
+										size="4x"
+										icon={faEnvelope}
+									/>
 								</a>
 							</Col>
 						</Row>
