@@ -91,7 +91,7 @@ const Styled = styled.div`
 	}
 
 	.cards {
-		background-color: darkgrey; 
+		background-color: #3A5D67; 
 		position: relative; 
 		top: -75px; 
 		padding: 50px; 
