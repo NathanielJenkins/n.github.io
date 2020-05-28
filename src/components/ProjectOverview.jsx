@@ -6,7 +6,7 @@ import courseMapImg from "../img/coursemap.png";
 import rayTracing from "../img/raytrace.bmp";
 import networking from "../img/networking1.png";
 import ml from "../img/heatmap.png";
-import react_logo from "../img/react-logo.png";
+import appmain from "../img/appmain.png";
 
 const Styled = styled.div``;
 
@@ -40,7 +40,7 @@ const cardInfo = [
 	{
 		title: " (In Progress) Songbird Mobile App + API",
 		subtitle: "Mobile app + API",
-		img: react_logo,
+		img: appmain,
 		overview:
 			"Building an app that allows musicians to connect with venues easier. So far I have written the user authentication on both FE and BE",
 		github: "https://github.com/NathanielJenkins/JoFi",
