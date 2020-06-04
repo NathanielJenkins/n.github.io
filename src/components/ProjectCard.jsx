@@ -31,10 +31,32 @@ const Styled = styled.div`
 	}
 
 	overflow : hidden; 
+
+	.lo {
+		border-radius: 5px; 
+		border-style: solid;
+		border-width: 1px;
+		border-color:  #3A5D67;
+		white-space: nowrap
+		display: inline-block;
+	}
+
 `;
 
 class ProjectCard extends Component {
 	state = {};
+	renderLO = (learningOutcomeList) => {
+		const items = [];
+
+		for (const [index, value] of learningOutcomeList.entries()) {
+			items.push(
+				<span className="p-1 m-1 lo" key={index}>
+					{value}
+				</span>
+			);
+		}
+		return items;
+	};
 	render() {
 		return (
 			<Styled data-aos="fade-up">
@@ -58,7 +80,9 @@ class ProjectCard extends Component {
 									) : null}
 									<hr />
 									<Card.Text className="mb-1">Learning Outcomes:</Card.Text>
-									<blockquote className="text-">{this.props.lo}</blockquote>
+									<blockquote className="text-">
+										{this.renderLO(this.props.lo)}
+									</blockquote>
 								</Card.Body>
 							</Col>
 							<Col xl={2}>
@@ -68,14 +92,16 @@ class ProjectCard extends Component {
 										vertical
 										className="mt-0"
 									>
-										<Button
-											href={this.props.github}
-											block
-											variant="outline-dark"
-											target="_blank"
-										>
-											Github
-										</Button>
+										{this.props.github ? (
+											<Button
+												href={this.props.github}
+												block
+												variant="outline-dark"
+												target="_blank"
+											>
+												Github
+											</Button>
+										) : null}
 										{this.props.demo ? (
 											<Button
 												target="_blank"

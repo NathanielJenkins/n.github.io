@@ -6,11 +6,30 @@ import courseMapImg from "../img/coursemap.png";
 import rayTracing from "../img/raytrace.bmp";
 import networking from "../img/networking1.png";
 import ml from "../img/heatmap.png";
+import ergo from "../img/ergo.png";
 import appmain from "../img/appmain.png";
 
 const Styled = styled.div``;
 
 const cardInfo = [
+	{
+		title: "Ecommerce Store (Work)",
+		subtitle: "Web Dev",
+		img: ergo,
+		overview: `Developed an e-commerce store from scratch with 2 other Co-op students as part of a work experience program over 8-months. The site handles product inventory, product customization, administrative side, reviews, email subscription, cart, account management and many other core e-commerce ideas`,
+		demo: "https://store.ergonomyx.com/",
+		lo: [
+			"flask",
+			"python",
+			"javascript",
+			"psql",
+			"jQuery",
+			"UI",
+			"Graphics",
+			"Payment Processing stripe",
+			"Business",
+		],
+	},
 	{
 		title: "Course Map",
 		subtitle: "Web Dev",
@@ -20,8 +39,14 @@ const cardInfo = [
 		github: "https://github.com/NathanielJenkins/Course_Map",
 		demo: "https://coursemap.herokuapp.com/",
 		learn: "projects/coursemap",
-		lo:
-			"webscraping (beautiful soup), flask, python, javascript, mysql, relational recursive database structure",
+		lo: [
+			"webscraping (beautiful soup)",
+			"flask",
+			"python",
+			"javascript",
+			"mysql",
+			"relational recursive database",
+		],
 	},
 	{
 		title: "Ray Tracing",
@@ -34,8 +59,11 @@ const cardInfo = [
 		lighting, parallelization and multi-sampling/anti-aliasing techniques. An example image is shown on the right. In order to run program yourself you need CMake, python, C++.`,
 		github: "https://github.com/NathanielJenkins/rayTracer",
 		learn: "projects/rayTracer",
-		lo:
-			"Modern, scalable C++, computer graphics/computer rendering fundamentals, graphics math foundations",
+		lo: [
+			"Modern, scalable C++",
+			"computer graphics/computer rendering fundamentals",
+			"graphics math foundations",
+		],
 	},
 	{
 		title: " (In Progress) Songbird Mobile App + API",
@@ -44,7 +72,7 @@ const cardInfo = [
 		overview:
 			"Building an app that allows musicians to connect with venues easier. So far I have written the user authentication on both FE and BE",
 		github: "https://github.com/NathanielJenkins/JoFi",
-		lo: "Express Api Nodejs, React Native, Mongodb (mongoose)",
+		lo: ["Express Api", "Nodejs", "React Native", "Mongodb (mongoose)"],
 	},
 	{
 		title: "Priority Queueing to Alleviate Packet Re-ordering Problem",
@@ -56,7 +84,7 @@ const cardInfo = [
 		demo:
 			"https://github.com/NathanielJenkins/SimulationProject/blob/master/Report%20Project.pdf",
 		learn: "projects/simulation",
-		lo: "Java, data analysis, real world modeling",
+		lo: ["Java", "data analysis", "real world modeling"],
 	},
 	{
 		title: "Lyric Genre Classifier",
@@ -70,7 +98,7 @@ const cardInfo = [
 		demo:
 			"https://github.com/NathanielJenkins/LyricGenreClassifier/blob/final/project.ipynb",
 		learn: "projects/lyricclassifier",
-		lo: "python, numpy, sklearn, seaborn, nltk, jupyter notebook",
+		lo: ["python", "numpy", "sklearn", "seaborn", "nltk", "jupyter notebook"],
 	},
 ];
 
