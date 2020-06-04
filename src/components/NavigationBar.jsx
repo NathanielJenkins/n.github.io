@@ -18,6 +18,11 @@ const Styled = styled.div`
 			color: darkgrey !important;
 		}
 	}
+
+	.dropdown-menu {
+		right: 0;
+		left: auto;
+	}
 `;
 
 class NavigationBar extends Component {
@@ -35,13 +40,13 @@ class NavigationBar extends Component {
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="ml-auto">
 							<NavDropdown
-								className="link  right-justify nav-item"
-								title="Projects"
+								className="link right-justify nav-item"
+								title="Programming Projects"
 								id="basic-nav-dropdown"
 							>
 								<Link
 									to="/projects/coursemap"
-									className="link  right-justify dropdown-item"
+									className="link right-justify dropdown-item"
 								>
 									Course Map
 								</Link>
@@ -62,6 +67,18 @@ class NavigationBar extends Component {
 									className="link  right-justify dropdown-item"
 								>
 									Networking Sim
+								</Link>
+							</NavDropdown>
+							<NavDropdown
+								className="link  right-justify nav-item"
+								title="Other Projects"
+								id="dropDown2"
+							>
+								<Link
+									to="/projects/computer_art"
+									className="link  right-justify dropdown-item"
+								>
+									Computer Rendering / Computer Art
 								</Link>
 							</NavDropdown>
 							<Nav.Link>

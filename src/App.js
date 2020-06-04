@@ -7,6 +7,7 @@ import Simulation from "./components/Simulation";
 import CourseMap from "./components/CourseMap";
 import Contact from "./components/Contact";
 import RayTracer from "./components/RayTracer";
+import ComputerArt from "./components/ComputerArt";
 
 import styled from "styled-components";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -93,8 +94,16 @@ class App extends Component {
 						<Route exact path={process.env.PUBLIC_URL + "/projects/raytracer"}>
 							<RayTracer />
 						</Route>
-						<Route path="/contact">
+
+						<Route exact path={process.env.PUBLIC_URL + "/contact"}>
 							<Contact />
+						</Route>
+
+						<Route
+							exact
+							path={process.env.PUBLIC_URL + "/projects/computer_art"}
+						>
+							<ComputerArt />
 						</Route>
 					</Switch>
 				</Styled>
