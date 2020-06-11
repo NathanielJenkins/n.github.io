@@ -18,7 +18,6 @@ const cardInfo = [
 		subtitle: "Computer Art",
 		img: render,
 		overview: `Working on product renders and animations with Cinema 4D program and Corona Renderer`,
-		demo: "projects/computer_art",
 		learn: "projects/computer_art",
 		lo: [
 			"Cinema4D",
@@ -30,7 +29,7 @@ const cardInfo = [
 		],
 	},
 	{
-		title: "Ecommerce Store (Work)",
+		title: "E-Commerce Store (Work)",
 		subtitle: "Web Dev",
 		img: ergo,
 		overview: `Developed an e-commerce store from scratch with 2 other Co-op students as part of a work experience program over 8-months. The site handles product inventory, product customization, administrative side, reviews, email subscription, cart, account management and many other core e-commerce ideas`,
