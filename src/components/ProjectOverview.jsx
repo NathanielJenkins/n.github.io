@@ -8,10 +8,27 @@ import networking from "../img/networking1.png";
 import ml from "../img/heatmap.png";
 import ergo from "../img/ergo.png";
 import appmain from "../img/appmain.png";
+import render from "../img/code_render_2.jpg";
 
 const Styled = styled.div``;
 
 const cardInfo = [
+	{
+		title: "Cinema 4D + Corona Rendering",
+		subtitle: "Computer Art",
+		img: render,
+		overview: `Working on product renders and animations with Cinema 4D program and Corona Renderer`,
+		demo: "projects/computer_art",
+		learn: "projects/computer_art",
+		lo: [
+			"Cinema4D",
+			"Corona Renderer",
+			"Product Rendering",
+			"Product Design",
+			"Material Design",
+			"Lighting",
+		],
+	},
 	{
 		title: "Ecommerce Store (Work)",
 		subtitle: "Web Dev",

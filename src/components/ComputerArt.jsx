@@ -42,6 +42,10 @@ class Contact extends Component {
 		current_selected: 1,
 	};
 
+	componentDidMount() {
+		window.scrollTo(0, 0);
+	}
+
 	setCurrentSelected(value) {
 		console.log(value);
 		this.setState({
