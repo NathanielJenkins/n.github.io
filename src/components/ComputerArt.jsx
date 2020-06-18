@@ -69,11 +69,11 @@ class Contact extends Component {
 					<Row className="mb-4">
 						<Col>
 							{" "}
-							<img alt="render 1" className="img-fluid" src={ren1} />
+							<img alt="render 2" className="img-fluid" src={ren2} />
 						</Col>
 						<Col>
 							{" "}
-							<img alt="render 5" className="img-fluid" src={ren5} />
+							<img alt="render 4" className="img-fluid" src={ren4} />
 						</Col>
 					</Row>
 
@@ -84,7 +84,7 @@ class Contact extends Component {
 						</Col>
 						<Col>
 							{" "}
-							<img alt="render 4" className="img-fluid" src={ren4} />
+							<img alt="render 1" className="img-fluid" src={ren1} />
 						</Col>
 					</Row>
 					<h3 className="text-center">Product Customization</h3>
