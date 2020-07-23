@@ -9,10 +9,20 @@ import ml from "../img/heatmap.png";
 import ergo from "../img/ergo.png";
 import appmain from "../img/appmain.png";
 import render from "../img/code_render_6.jpg";
+import sudoku from "../img/sudoku.png";
 
 const Styled = styled.div``;
 
 const cardInfo = [
+	{
+		title: "Sudoku Backtracking Visualizer (in progress)",
+		subtitle: "Algorithms",
+		img: sudoku,
+		github: "https://github.com/NathanielJenkins/SudokuVi",
+		demo: "https://nathanieljenkins.github.io/sudokuVi/",
+		overview: `The website will generate, solve and visualize a brute force backtracking algorithm. Still working on UI`,
+		lo: ["React", "Algorithms", "Backtracking", "Visualization"],
+	},
 	{
 		title: "Cinema 4D + Corona Rendering",
 		subtitle: "Computer Art",
