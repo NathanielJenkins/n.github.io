@@ -9,18 +9,18 @@ import ml from "../img/heatmap.png";
 import ergo from "../img/ergo.png";
 import appmain from "../img/appmain.png";
 import render from "../img/code_render_6.jpg";
-import sudoku from "../img/sudoku.png";
+import sudoku from "../img/sudoku.gif";
 
 const Styled = styled.div``;
 
 const cardInfo = [
 	{
-		title: "Sudoku Backtracking Visualizer (in progress)",
+		title: "Sudoku Solver Backtracking Visualizer ",
 		subtitle: "Algorithms",
 		img: sudoku,
 		github: "https://github.com/NathanielJenkins/SudokuVi",
 		demo: "https://nathanieljenkins.github.io/sudokuVi/",
-		overview: `The website will generate, solve and visualize a brute force backtracking algorithm. Still working on UI`,
+		overview: `The website will generate, solve and visualize a brute force backtracking algorithm. It goes square by square and tries each number. If it cannot continue anymore then it will backtrack to a place it can continue`,
 		lo: ["React", "Algorithms", "Backtracking", "Visualization"],
 	},
 	{
