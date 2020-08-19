@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.fa75bb3a.chunk.js",
-    "main.js.map": "/static/js/main.fa75bb3a.chunk.js.map",
+    "main.js": "/static/js/main.b985a92c.chunk.js",
+    "main.js.map": "/static/js/main.b985a92c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.22e5a9a2.js",
     "runtime-main.js.map": "/static/js/runtime-main.22e5a9a2.js.map",
     "static/css/2.7a4b693d.chunk.css": "/static/css/2.7a4b693d.chunk.css",
-    "static/js/2.375768c1.chunk.js": "/static/js/2.375768c1.chunk.js",
-    "static/js/2.375768c1.chunk.js.map": "/static/js/2.375768c1.chunk.js.map",
+    "static/js/2.50ba21d5.chunk.js": "/static/js/2.50ba21d5.chunk.js",
+    "static/js/2.50ba21d5.chunk.js.map": "/static/js/2.50ba21d5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.15baa63d994f788e5907668a17395233.js": "/precache-manifest.15baa63d994f788e5907668a17395233.js",
+    "precache-manifest.0bd0d67619845045627de533e9c052ea.js": "/precache-manifest.0bd0d67619845045627de533e9c052ea.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.7a4b693d.chunk.css.map": "/static/css/2.7a4b693d.chunk.css.map",
-    "static/js/2.375768c1.chunk.js.LICENSE": "/static/js/2.375768c1.chunk.js.LICENSE",
+    "static/js/2.50ba21d5.chunk.js.LICENSE": "/static/js/2.50ba21d5.chunk.js.LICENSE",
     "static/media/appmain.png": "/static/media/appmain.7da24b60.png",
     "static/media/arrows.svg": "/static/media/arrows.dbc3ed85.svg",
     "static/media/artguy.png": "/static/media/artguy.bfc240ba.png",
@@ -21,6 +21,7 @@
     "static/media/code_render_4.jpg": "/static/media/code_render_4.4ab1492a.jpg",
     "static/media/code_render_5.jpg": "/static/media/code_render_5.aef9fcd2.jpg",
     "static/media/code_render_6.jpg": "/static/media/code_render_6.387d2ac9.jpg",
+    "static/media/code_render_7.jpg": "/static/media/code_render_7.258984fb.jpg",
     "static/media/compguy.png": "/static/media/compguy.1d6d93f5.png",
     "static/media/course.png": "/static/media/course.83d411fe.png",
     "static/media/coursemap.png": "/static/media/coursemap.359ad7ba.png",
@@ -43,7 +44,7 @@
   "entrypoints": [
     "static/js/runtime-main.22e5a9a2.js",
     "static/css/2.7a4b693d.chunk.css",
-    "static/js/2.375768c1.chunk.js",
-    "static/js/main.fa75bb3a.chunk.js"
+    "static/js/2.50ba21d5.chunk.js",
+    "static/js/main.b985a92c.chunk.js"
   ]
 }
