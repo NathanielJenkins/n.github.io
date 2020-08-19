@@ -7,6 +7,7 @@ import ren3 from "../img/code_render_3.jpg";
 import ren4 from "../img/code_render_4.jpg";
 import ren5 from "../img/code_render_5.jpg";
 import ren6 from "../img/code_render_6.jpg";
+import ren7 from "../img/code_render_7.jpg";
 
 import select1 from "../img/select_1.jpg";
 import select2 from "../img/select_2.jpg";
@@ -63,7 +64,7 @@ class Contact extends Component {
 					<h1>Cinema4D + Corona Renderer</h1>
 					<Row className="mb-4">
 						<Col>
-							<img alt="render 6" className="img-fluid" src={ren6} />
+							<img alt="render 7" className="img-fluid" src={ren7} />
 						</Col>{" "}
 					</Row>
 					<Row className="mb-4">
@@ -86,6 +87,11 @@ class Contact extends Component {
 							{" "}
 							<img alt="render 1" className="img-fluid" src={ren1} />
 						</Col>
+					</Row>
+					<Row className="mb-4">
+						<Col>
+							<img alt="render 6" className="img-fluid" src={ren6} />
+						</Col>{" "}
 					</Row>
 					<h3 className="text-center">Product Customization</h3>
 					<Row className="mb-4">
