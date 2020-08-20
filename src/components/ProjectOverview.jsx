@@ -8,7 +8,7 @@ import networking from "../img/networking1.png";
 import ml from "../img/heatmap.png";
 import ergo from "../img/ergo.png";
 import appmain from "../img/appmain.png";
-import render from "../img/code_render_6.jpg";
+import render from "../img/code_render_7.jpg";
 import sudoku from "../img/sudoku.gif";
 
 const Styled = styled.div``;
