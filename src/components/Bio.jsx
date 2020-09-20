@@ -21,6 +21,7 @@ import {
 import me from "../img/meflat.png";
 import img2 from "../img/compguy.png";
 import img1 from "../img/artguy.png";
+import strengths from "../img/strengths.png";
 
 const Styled = styled.div`
 	.jumbotron {
@@ -172,6 +173,7 @@ class Bio extends Component {
 							</Col>
 						</Row>
 						<br />
+
 						<Row className="mt-4 text-center">
 							<Col xs>
 								<a
@@ -218,6 +220,8 @@ class Bio extends Component {
 						</Row>
 					</Container>
 				</Jumbotron>
+				<img className="img-fluid " src={strengths}></img>
+
 				<Container className="bio" fluid>
 					<Row>
 						<Col>
