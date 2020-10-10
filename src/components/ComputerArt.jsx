@@ -8,10 +8,13 @@ import ren4 from "../img/code_render_4.jpg";
 import ren5 from "../img/code_render_5.jpg";
 import ren6 from "../img/code_render_6.jpg";
 import ren7 from "../img/code_render_7.jpg";
+import ren8 from "../img/code_render_8.jpg";
 
 import select1 from "../img/select_1.jpg";
 import select2 from "../img/select_2.jpg";
 import select3 from "../img/select_3.jpg";
+import select4 from "../img/select_3.jpg";
+import select5 from "../img/select_3.jpg";
 
 import { Container, Row, Col, Button, ButtonGroup } from "react-bootstrap";
 
@@ -23,8 +26,8 @@ const Styled = styled.div`
 	.grey-button {
 		background-color: grey !important;
 	}
-	.green-button {
-		background-color: green !important;
+	.black-button {
+		background-color: black !important;
 	}
 	.button-group-cus {
 		min-height: 30px;
@@ -36,12 +39,18 @@ const Styled = styled.div`
 
 	.cus-but {
 		border-color: light-grey !important;
+		width: 100px;
+		height: 50px;
+	}
+
+	.small-col {
+		max-width: 800px;
 	}
 `;
 const images = [select1, select2, select3];
 class Contact extends Component {
 	state = {
-		current_selected: 1,
+		current_selected: 0,
 	};
 
 	componentDidMount() {
@@ -61,7 +70,13 @@ class Contact extends Component {
 			<Styled>
 				<NavigationBar />
 				<Container className="mt-4">
-					<h1>Cinema4D + Corona Renderer</h1>
+					<h1 className="text-center">Cinema4D + Corona Renderer</h1>
+					<p className="text-center">
+						Here find a small selection of products I have rendered with
+						Cinema4D and Corona Renderer. These Products are part of
+						Code-Electric line.
+					</p>
+					<hr></hr>
 					<Row className="mb-4">
 						<Col>
 							<img alt="render 7" className="img-fluid" src={ren7} />
@@ -90,14 +105,14 @@ class Contact extends Component {
 					</Row>
 					<Row className="mb-4">
 						<Col>
-							<img alt="render 6" className="img-fluid" src={ren6} />
+							<img alt="render 8" className="img-fluid" src={ren8} />
 						</Col>{" "}
 					</Row>
 					<h3 className="text-center">Product Customization</h3>
-					<Row className="mb-4">
-						<Col>
+					<Row className="mb-4 ml-1 mr-1">
+						<Col className="mx-auto text-center shadow small-col">
 							<img
-								alt="select 1"
+								alt="selected"
 								className="img-fluid"
 								src={images[this.state.current_selected]}
 							/>
@@ -109,19 +124,19 @@ class Contact extends Component {
 									<ButtonGroup className="button-group-cus">
 										<Button
 											type="button"
+											className="white-button btn cus-but"
+											variant="outline-dark"
+											onClick={() => this.setCurrentSelected(1)}
+										></Button>
+										<Button
+											type="button"
 											className="grey-button btn cus-but"
 											variant="outline-dark"
 											onClick={() => this.setCurrentSelected(0)}
 										></Button>
 										<Button
 											type="button"
-											className="green-button btn cus-but"
-											variant="outline-dark"
-											onClick={() => this.setCurrentSelected(1)}
-										></Button>
-										<Button
-											type="button"
-											className="white-button cus-but"
+											className="black-button cus-but"
 											variant="outline-dark"
 											onClick={() => this.setCurrentSelected(2)}
 										></Button>

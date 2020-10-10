@@ -80,6 +80,12 @@ class NavigationBar extends Component {
 								>
 									Computer Rendering / Computer Art
 								</Link>
+								<Link
+									to="/projects/e-commerce_design"
+									className="link right-justify dropdown-item"
+								>
+									E-Commerce Design
+								</Link>
 							</NavDropdown>
 							<Nav.Link>
 								<Link to="/contact" className="link  nav-item">
