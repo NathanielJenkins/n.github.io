@@ -108,7 +108,7 @@ class Contact extends Component {
 							<img alt="render 8" className="img-fluid" src={ren8} />
 						</Col>{" "}
 					</Row>
-					<h3 className="text-center">Product Customization</h3>
+					<h3 className="text-center mb-2">Product Customization</h3>
 					<Row className="mb-4 ml-1 mr-1">
 						<Col className="mx-auto text-center shadow small-col">
 							<img
@@ -147,8 +147,12 @@ class Contact extends Component {
 					</Row>
 				</Container>
 				<Container className="mt-4">
-					<h1>Cinema4D Tutorial</h1>
-
+					<h1 className="text-center">Cinema4D Tutorial</h1>
+					<p className="text-center">
+						This video I made with Cinema4D following the beginner tutorial
+						located on Cineversity
+					</p>
+					<hr />
 					<Row>
 						<Col>
 							<div className="mx-auto text-center">
@@ -162,10 +166,6 @@ class Contact extends Component {
 								>
 									<source type="video/mp4" src={sub} />
 								</video>
-								<p>
-									This video I made with Cinema4D following the beginner
-									tutorial located on Cineversity
-								</p>
 							</div>
 						</Col>
 					</Row>
