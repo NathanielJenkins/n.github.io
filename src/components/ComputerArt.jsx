@@ -109,15 +109,15 @@ class Contact extends Component {
 						</Col>{" "}
 					</Row>
 					<h3 className="text-center mb-2">Product Customization</h3>
-					<Row className="mb-4 ml-1 mr-1">
-						<Col className="mx-auto text-center shadow small-col">
+					<Row className="mb-4 ml-1 mr-1 shadow">
+						<Col className="mx-auto text-center small-col">
 							<img
 								alt="selected"
 								className="img-fluid"
 								src={images[this.state.current_selected]}
 							/>
 						</Col>
-						<Container className="mt-2 text-center">
+						<Container className="mt-2 text-center mb-4">
 							<Row>
 								<Col>
 									<h6>Select Color</h6>
