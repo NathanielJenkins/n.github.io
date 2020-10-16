@@ -31,6 +31,11 @@ const Styled = styled.div`
 	.img-fluid {
 		margin-bottom: 30px;
 	}
+	@media (min-width: 576px) {
+		h1 {
+			font-size: 35px !important;
+		}
+	}
 `;
 
 class AuthenticationReport extends Component {
@@ -178,7 +183,7 @@ class AuthenticationReport extends Component {
 								it is required that we do all requests involving username and
 								password with HTTPS.
 							</div>
-							<div style={{ margin: "100px" }} className="text-center">
+							<div style={{ margin: "20%" }} className="text-center">
 								<h5>What is HTTPS:</h5>
 								<div className="font-italic font-weight-light mb-4">
 									At a high level, https allows for encrypted information to be
