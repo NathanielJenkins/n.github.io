@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import RayTracer from "./components/RayTracer";
 import ComputerArt from "./components/ComputerArt";
 import ECommerceDesign from "./components/ECommerceDesign";
+import AuthenticationReport from "./components/AuthenticationReport";
 
 import styled from "styled-components";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -111,6 +112,12 @@ class App extends Component {
 							path={process.env.PUBLIC_URL + "/projects/e-commerce_design"}
 						>
 							<ECommerceDesign />
+						</Route>
+						<Route
+							exact
+							path={process.env.PUBLIC_URL + "/blog/authentication_report"}
+						>
+							<AuthenticationReport />
 						</Route>
 					</Switch>
 				</Styled>

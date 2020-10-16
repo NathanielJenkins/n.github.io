@@ -87,6 +87,18 @@ class NavigationBar extends Component {
 									E-Commerce Design
 								</Link>
 							</NavDropdown>
+							<NavDropdown
+								className="link right-justify nav-item"
+								title="Blog"
+								id="dropDown2"
+							>
+								<Link
+									to="/blog/authentication_report"
+									className="link  right-justify dropdown-item"
+								>
+									Authentication flows with JWTs
+								</Link>
+							</NavDropdown>
 							<Nav.Link>
 								<Link to="/contact" className="link  nav-item">
 									Contact
