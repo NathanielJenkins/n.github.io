@@ -31,7 +31,7 @@ const Styled = styled.div`
 	.img-fluid {
 		margin-bottom: 30px;
 	}
-	@media (min-width: 576px) {
+	@media (max-width: 576px) {
 		h1 {
 			font-size: 35px !important;
 		}
