@@ -192,7 +192,7 @@ class Bio extends Component {
 								<a
 									style={{ color: "black" }}
 									target="_blank"
-									href="https://www.linkedin.com/in/nathan-jenkins-boale-17b933129/"
+									href="https://www.linkedin.com/in/nathan-taylor-jenkins-boale-17b933129/"
 									rel="noopener noreferrer"
 								>
 									<FontAwesomeIcon
