@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.d86cbe90.chunk.js",
-    "main.js.map": "/static/js/main.d86cbe90.chunk.js.map",
+    "main.js": "/static/js/main.c4bc5557.chunk.js",
+    "main.js.map": "/static/js/main.c4bc5557.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.22e5a9a2.js",
     "runtime-main.js.map": "/static/js/runtime-main.22e5a9a2.js.map",
     "static/css/2.7a4b693d.chunk.css": "/static/css/2.7a4b693d.chunk.css",
-    "static/js/2.5de6645c.chunk.js": "/static/js/2.5de6645c.chunk.js",
-    "static/js/2.5de6645c.chunk.js.map": "/static/js/2.5de6645c.chunk.js.map",
+    "static/js/2.8c688fbe.chunk.js": "/static/js/2.8c688fbe.chunk.js",
+    "static/js/2.8c688fbe.chunk.js.map": "/static/js/2.8c688fbe.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.58b2422fac322b3bc1eaab034ae7afdd.js": "/precache-manifest.58b2422fac322b3bc1eaab034ae7afdd.js",
+    "precache-manifest.e835d421ef7cf5380d0ee90eab3e9043.js": "/precache-manifest.e835d421ef7cf5380d0ee90eab3e9043.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.7a4b693d.chunk.css.map": "/static/css/2.7a4b693d.chunk.css.map",
-    "static/js/2.5de6645c.chunk.js.LICENSE": "/static/js/2.5de6645c.chunk.js.LICENSE",
+    "static/js/2.8c688fbe.chunk.js.LICENSE": "/static/js/2.8c688fbe.chunk.js.LICENSE",
     "static/media/Artboard_1.jpg": "/static/media/Artboard_1.cf9a065e.jpg",
     "static/media/Artboard_2.jpg": "/static/media/Artboard_2.e08b882e.jpg",
     "static/media/Artboard_3.jpg": "/static/media/Artboard_3.d275817a.jpg",
@@ -25,8 +25,6 @@
     "static/media/code_render_2.jpg": "/static/media/code_render_2.1556ba1e.jpg",
     "static/media/code_render_3.jpg": "/static/media/code_render_3.4db96e7c.jpg",
     "static/media/code_render_4.jpg": "/static/media/code_render_4.4ab1492a.jpg",
-    "static/media/code_render_5.jpg": "/static/media/code_render_5.aef9fcd2.jpg",
-    "static/media/code_render_6.jpg": "/static/media/code_render_6.387d2ac9.jpg",
     "static/media/code_render_7.jpg": "/static/media/code_render_7.cdd85c62.jpg",
     "static/media/code_render_8.jpg": "/static/media/code_render_8.b6b58bd1.jpg",
     "static/media/compguy.png": "/static/media/compguy.1d6d93f5.png",
@@ -49,13 +47,12 @@
     "static/media/structure.png": "/static/media/structure.67d49f57.png",
     "static/media/submarineoutoffocus.mov": "/static/media/submarineoutoffocus.b593eebe.mov",
     "static/media/sudoku.gif": "/static/media/sudoku.2294f045.gif",
-    "static/media/tree.svg": "/static/media/tree.41578462.svg",
-    "static/media/waterfall.jpg": "/static/media/waterfall.93c417ba.jpg"
+    "static/media/tree.svg": "/static/media/tree.41578462.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.22e5a9a2.js",
     "static/css/2.7a4b693d.chunk.css",
-    "static/js/2.5de6645c.chunk.js",
-    "static/js/main.d86cbe90.chunk.js"
+    "static/js/2.8c688fbe.chunk.js",
+    "static/js/main.c4bc5557.chunk.js"
   ]
 }
