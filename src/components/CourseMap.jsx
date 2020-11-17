@@ -46,6 +46,7 @@ class CourseMap extends Component {
 							<img
 								className="mb-2 img-fluid rounded shadow-lg"
 								src={treepng}
+								alt="main tree"
 							></img>
 						</div>
 
@@ -67,6 +68,7 @@ class CourseMap extends Component {
 								<a
 									class="btn btn-outline-light"
 									target="_blank"
+									rel="noopener noreferrer"
 									href="https://coursemap.herokuapp.com/"
 								>
 									Live Site
@@ -74,6 +76,7 @@ class CourseMap extends Component {
 								<a
 									class="btn btn-outline-light"
 									target="_blank"
+									rel="noopener noreferrer"
 									href="https://github.com/NathanielJenkins/Course_Map"
 								>
 									Github Source
@@ -111,12 +114,17 @@ class CourseMap extends Component {
 								type="button"
 								class="btn btn-outline-light btn-block"
 								target="_blank"
+								rel="noopener noreferrer"
 							>
 								Webscrapping Source
 							</a>
 						</div>
 						<div className="col-md-6 mt-4">
-							<img className="img-fluid rounded shadow-lg" src={course}></img>
+							<img
+								alt="course"
+								className="img-fluid rounded shadow-lg"
+								src={course}
+							></img>
 						</div>
 					</div>
 				</div>

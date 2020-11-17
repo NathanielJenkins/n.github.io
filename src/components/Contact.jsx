@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 
-import { Container, Row, Col, Table } from "react-bootstrap";
+import { Container, Table } from "react-bootstrap";
 
 import NavigationBar from "./NavigationBar";
 const Styled = styled.div``;

@@ -55,6 +55,7 @@ class Simulation extends Component {
 									href="https://github.com/NathanielJenkins/rayTracer"
 									class="btn btn-outline-light"
 									target="_blank"
+									rel="noopener noreferrer"
 								>
 									Github Source
 								</a>
@@ -64,6 +65,7 @@ class Simulation extends Component {
 							<img
 								className="img-fluid rounded shadow border"
 								src={raytrace}
+								alt="raytrace"
 							></img>
 						</div>
 					</div>

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import jumboImg from "../img/waterfall.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faEnvelope,
@@ -220,7 +219,7 @@ class Bio extends Component {
 						</Row>
 					</Container>
 				</Jumbotron>
-				<img className="img-fluid " src={strengths}></img>
+				<img alt="strengths" className="img-fluid " src={strengths}></img>
 
 				<Container className="bio" fluid>
 					<Row>

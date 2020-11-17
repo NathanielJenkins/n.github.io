@@ -53,6 +53,7 @@ class LyricClassifier extends Component {
 									href="https://github.com/NathanielJenkins/LyricGenreClassifier/blob/final/project.ipynb"
 									class="btn btn-outline-dark"
 									target="_blank"
+									rel="noopener noreferrer"
 								>
 									Jupyter Notebook
 								</a>
@@ -60,13 +61,18 @@ class LyricClassifier extends Component {
 									href="https://github.com/NathanielJenkins/LyricGenreClassifier"
 									class="btn btn-outline-dark"
 									target="_blank"
+									rel="noopener noreferrer"
 								>
 									Github Source
 								</a>
 							</div>
 						</div>
 						<div className="col-md-8">
-							<img className="img-fluid rounded shadow-lg" src={heatmap}></img>
+							<img
+								className="img-fluid rounded shadow-lg"
+								alt="heatmap"
+								src={heatmap}
+							></img>
 						</div>
 					</div>
 					<div className="row p-4">

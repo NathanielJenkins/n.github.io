@@ -67,6 +67,7 @@ class ProjectCard extends Component {
 								<img
 									className="mx-auto my-auto img-fluid thumbnail"
 									src={this.props.img}
+									alt="thumbnail"
 								></img>
 							</Col>
 							<Col xl={6}>

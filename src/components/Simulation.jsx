@@ -53,6 +53,7 @@ class Simulation extends Component {
 									href="https://github.com/NathanielJenkins/SimulationProject/blob/master/Report%20Project.pdf"
 									class="btn btn-outline-dark"
 									target="_blank"
+									rel="noopener noreferrer"
 								>
 									Project Report
 								</a>
@@ -60,6 +61,7 @@ class Simulation extends Component {
 									href="https://github.com/NathanielJenkins/SimulationProject"
 									class="btn btn-outline-dark"
 									target="_blank"
+									rel="noopener noreferrer"
 								>
 									Github Source
 								</a>
@@ -67,6 +69,7 @@ class Simulation extends Component {
 						</div>
 						<div className="col-md-8">
 							<img
+								alt="delay simulation"
 								className="img-fluid rounded shadow border"
 								src={delay}
 							></img>
@@ -74,7 +77,7 @@ class Simulation extends Component {
 					</div>
 					<div className="row p-4">
 						<div className="col-md-6">
-							<img className="img-fluid" src={model}></img>
+							<img alt="model" className="img-fluid" src={model}></img>
 						</div>
 						<div className="col-md-6">
 							<h4>Description</h4>

@@ -5,16 +5,16 @@ import ren1 from "../img/code_render_1.jpg";
 import ren2 from "../img/code_render_2.jpg";
 import ren3 from "../img/code_render_3.jpg";
 import ren4 from "../img/code_render_4.jpg";
-import ren5 from "../img/code_render_5.jpg";
-import ren6 from "../img/code_render_6.jpg";
+// import ren5 from "../img/code_render_5.jpg";
+// import ren6 from "../img/code_render_6.jpg";
 import ren7 from "../img/code_render_7.jpg";
 import ren8 from "../img/code_render_8.jpg";
 
 import select1 from "../img/select_1.jpg";
 import select2 from "../img/select_2.jpg";
 import select3 from "../img/select_3.jpg";
-import select4 from "../img/select_3.jpg";
-import select5 from "../img/select_3.jpg";
+// import select4 from "../img/select_3.jpg";
+// import select5 from "../img/select_3.jpg";
 
 import { Container, Row, Col, Button, ButtonGroup } from "react-bootstrap";
 
@@ -65,7 +65,6 @@ class Contact extends Component {
 	}
 
 	render() {
-		const imageIndex = this.state.current_selected;
 		return (
 			<Styled>
 				<NavigationBar />

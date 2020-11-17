@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import heatmap from "../img/heatmap.png";
 
 const Styled = styled.div`
 	overflow: hidden;
@@ -50,7 +49,11 @@ class ProjectSection extends Component {
 						<h2 data-aos="fade-down">{this.props.subtitle}</h2>
 
 						<div className="img-container" data-aos="zoom-in">
-							<img className="p-4 img-fluid" src={this.props.svg}></img>
+							<img
+								alt="svg"
+								className="p-4 img-fluid"
+								src={this.props.svg}
+							></img>
 						</div>
 					</section>
 				</div>

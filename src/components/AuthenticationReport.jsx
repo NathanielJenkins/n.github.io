@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 
-import { Container, Row, Col, Table, Image } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 import NavigationBar from "./NavigationBar";
 
