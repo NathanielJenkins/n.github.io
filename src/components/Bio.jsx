@@ -46,12 +46,15 @@ const Styled = styled.div`
 
 	.bio {
 		background-color: #10182F; 
-		color: white !important; 
 	}
 
 	.bio-text {		
+		color: lightgrey !important;
+		font-weight: 500 !important; 
+	}
+	
+	.bio-title {
 		color: white !important;
-		font-weight: 300 !important; 
 	}
 
 	
@@ -108,6 +111,13 @@ const Styled = styled.div`
 
 	.list-group-item {
 		border-color: #3A5D67 !important; 
+	}
+
+	.hr {
+		height: 5px;
+  		width: 25%;
+		background-color: white;
+		border-radius: 2px;
 	}
 `;
 
@@ -225,7 +235,8 @@ class Bio extends Component {
 					<Row>
 						<Col>
 							<div className="margin-lg text-center">
-								<h3 className=" title mb-4">About myself</h3>
+								<h2 className="bio-title mb-3">About myself</h2>
+								<div className="hr mx-auto mb-4" />
 								<p className="text-center bio-text">
 									As a recent graduate from the University of Victoria, I have
 									had plenty of opportunity to improve my creative and technical
