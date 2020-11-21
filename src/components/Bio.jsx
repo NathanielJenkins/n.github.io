@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faEnvelope,
@@ -24,7 +25,7 @@ import strengths from "../img/strengths.png";
 
 const Styled = styled.div`
 	.jumbotron {
-		min-height: 100vh; 
+		height: calc(100vh - 64px);
 		background-color: transparent !important;
 	
 	}
@@ -154,8 +155,11 @@ class Bio extends Component {
 		let cards = [];
 		for (let i = 0; i < cardInfo.length; i++) {
 			cards.push(
-				<Col md className="mb-4">
-					<InformationCard {...cardInfo[i]}></InformationCard>
+				<Col key={`information-card-col-${i}`} md className="mb-4">
+					<InformationCard
+						key={`information-card-${i}`}
+						{...cardInfo[i]}
+					></InformationCard>
 				</Col>
 			);
 		}

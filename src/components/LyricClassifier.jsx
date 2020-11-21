@@ -34,7 +34,7 @@ class LyricClassifier extends Component {
 	render() {
 		return (
 			<Styled>
-				<NavigationBar />
+				<NavigationBar bg="light" color="darkseagreen" />
 				<ProjectSectionHeader {...projectInfo} />
 				<div className="container">
 					<div className="row p-4">

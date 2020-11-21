@@ -38,7 +38,7 @@ class CourseMap extends Component {
 	render() {
 		return (
 			<Styled>
-				<NavigationBar />
+				<NavigationBar bg="light" color="orange" />
 				<ProjectSectionHeader {...projectInfo} />
 				<div className="container">
 					<div className="row p-4">

@@ -133,9 +133,12 @@ class ProjectOverview extends Component {
 		let cards = [];
 		for (let i = 0; i < cardInfo.length; i++) {
 			cards.push(
-				<Row>
-					<Col md>
-						<ProjectCard {...cardInfo[i]}></ProjectCard>
+				<Row key={`project-card-row-${i}`}>
+					<Col key={`project-card-col-${i}`} md>
+						<ProjectCard
+							key={`project-card-${i}`}
+							{...cardInfo[i]}
+						></ProjectCard>
 					</Col>
 				</Row>
 			);

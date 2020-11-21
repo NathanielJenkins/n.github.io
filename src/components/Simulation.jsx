@@ -36,7 +36,7 @@ class Simulation extends Component {
 	render() {
 		return (
 			<Styled>
-				<NavigationBar />
+				<NavigationBar bg="light" color="lavender" />
 				<ProjectSectionHeader {...projectInfo} />
 				<div className="container">
 					<div className="row p-4">
