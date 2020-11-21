@@ -10,7 +10,7 @@ const Styled = styled.div`
 	color: white;
 
 	.full-screen-center {
-		height: calc(100vh - 56px);
+		min-height: calc(100vh - 56px);
 		-webkit-flex-flow: column wrap;
 		-ms-flex-flow: column wrap;
 		flex-flow: column wrap;
@@ -29,7 +29,7 @@ const Contact = () => {
 	return (
 		<Styled>
 			<NavigationBar bg="dark" />
-			<Container className="full-screen-center">
+			<Container>
 				<Row>
 					<Col>
 						<h1>Contact</h1>

@@ -25,7 +25,7 @@ import strengths from "../img/strengths.png";
 
 const Styled = styled.div`
 	.jumbotron {
-		height: calc(100vh - 56px);
+		min-height: calc(100vh - 56px);
 		background-color: transparent !important;
 	
 	}
@@ -233,8 +233,14 @@ class Bio extends Component {
 						</Row>
 					</Container>
 				</Jumbotron>
-				<img alt="strengths" className="img-fluid " src={strengths}></img>
 
+				<Container>
+					<Row>
+						<Col>
+							<img alt="strengths" className="img-fluid " src={strengths}></img>
+						</Col>
+					</Row>
+				</Container>
 				<Container className="bio" fluid>
 					<Row>
 						<Col>

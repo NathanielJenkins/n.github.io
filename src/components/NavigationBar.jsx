@@ -97,7 +97,7 @@ class NavigationBar extends Component {
 							>
 								<Link
 									to="/blog/authentication_report"
-									className={`link  right-justify dropdown-item`}
+									className={`link right-justify dropdown-item`}
 								>
 									Authentication flows with JWTs
 								</Link>
