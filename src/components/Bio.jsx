@@ -25,7 +25,7 @@ import strengths from "../img/strengths.png";
 
 const Styled = styled.div`
 	.jumbotron {
-		height: calc(100vh - 64px);
+		height: calc(100vh - 56px);
 		background-color: transparent !important;
 	
 	}
