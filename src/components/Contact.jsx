@@ -29,7 +29,7 @@ const Contact = () => {
 	return (
 		<Styled>
 			<NavigationBar bg="dark" />
-			<Container>
+			<Container className="full-screen-center">
 				<Row>
 					<Col>
 						<h1>Contact</h1>
