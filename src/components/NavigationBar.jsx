@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import styled from "styled-components";
 import { FaHome } from "react-icons/fa";
 
@@ -102,10 +103,12 @@ class NavigationBar extends Component {
 									Authentication flows with JWTs
 								</Link>
 							</NavDropdown>
-
+							<HashLink to="#education" className={`nav-link nav-item my-auto`}>
+								Education
+							</HashLink>
 							<Link
 								to="/contact"
-								className={`btn btn-outline-${contactButtonStyle} nav-item my-auto`}
+								className={`btn btn-outline-${contactButtonStyle} nav-item mx-2 my-auto`}
 							>
 								Contact
 							</Link>

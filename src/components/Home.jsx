@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import NavigationBar from "./NavigationBar";
 import Header from "./Header";
 import ProjectOverview from "./ProjectOverview";
+import Education from "./Education";
 
 class Home extends Component {
 	state = {};
@@ -11,6 +12,7 @@ class Home extends Component {
 				<NavigationBar />
 				<Header />
 				<ProjectOverview />
+				<Education />
 			</React.Fragment>
 		);
 	}

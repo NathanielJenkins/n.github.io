@@ -19,6 +19,14 @@ import "aos/dist/aos.css";
 
 const Styled = styled.div`
 	overflow: hidden;
+
+	.hr {
+		height: 5px;
+		width: 25%;
+		background-color: white;
+		border-radius: 2px;
+	}
+
 	h1 {
 		font-family: "Helvetica Neue", sans-serif;
 		font-size: 54px;
@@ -56,9 +64,9 @@ const Styled = styled.div`
 	}
 
 	p {
-		font-family: "Helvetica Neue", sans-serif;
+		font-family: "Open Sans", sans-serif;
 		font-size: 18px;
-		font-weight: 400;
+		// font-weight: 400;
 		line-height: 32px;
 		margin: 0 0 24px;
 	}
