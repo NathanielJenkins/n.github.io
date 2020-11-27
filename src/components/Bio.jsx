@@ -234,7 +234,7 @@ class Bio extends Component {
 					</Container>
 				</Jumbotron>
 
-				<Container>
+				<Container fluid>
 					<Row>
 						<Col>
 							<img alt="strengths" className="img-fluid " src={strengths}></img>
