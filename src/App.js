@@ -11,6 +11,8 @@ import ComputerArt from "./components/ComputerArt";
 import ECommerceDesign from "./components/ECommerceDesign";
 import AuthenticationReport from "./components/AuthenticationReport";
 
+import { Helmet } from "react-helmet";
+
 import styled from "styled-components";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -80,6 +82,12 @@ class App extends Component {
 	render() {
 		return (
 			<Router basename={process.env.PUBLIC_URL}>
+				<Helmet>
+					<meta
+						name="google-site-verification"
+						content="w1Aj0TZYDAfiZJinycZxOwvcPNGnhf258OUaQoWp3vk"
+					/>
+				</Helmet>
 				<Styled>
 					<Switch>
 						<Route exact path={process.env.PUBLIC_URL + "/"}>
