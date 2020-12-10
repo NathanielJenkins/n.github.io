@@ -10,6 +10,7 @@ import RayTracer from "./components/RayTracer";
 import ComputerArt from "./components/ComputerArt";
 import ECommerceDesign from "./components/ECommerceDesign";
 import AuthenticationReport from "./components/AuthenticationReport";
+import PrivacyPolicy from "./components/PrivacyPolicy";
 
 import { Helmet } from "react-helmet";
 
@@ -130,6 +131,12 @@ class App extends Component {
 							path={process.env.PUBLIC_URL + "/blog/authentication_report"}
 						>
 							<AuthenticationReport />
+						</Route>
+						<Route
+							exact
+							path={process.env.PUBLIC_URL + "/sudokuMobile/privacyPolicy"}
+						>
+							<PrivacyPolicy />
 						</Route>
 					</Switch>
 				</Styled>
