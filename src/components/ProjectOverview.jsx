@@ -22,7 +22,7 @@ const cardInfo = [
 		github: 'https://github.com/alastairroberts/the-apartment',
 		demo: 'https://the-apartment.ca',
 		overview: `This website was created for a friend who wanted a blog / media site that he and others could publish their work to. It all works by querying markdown files using graphql`,
-		lo: ['React', 'Gatsby', 'MaterialUI', 'Front-End'],
+		lo: ['React', 'Gatsby', 'MaterialUI', 'Front-End', 'GraphQL'],
 	},
 	{
 		title: 'Sudoku Solver Backtracking Visualizer ',
@@ -141,6 +141,7 @@ const cardInfo = [
 class ProjectOverview extends Component {
 	createCards = () => {
 		let cards = []
+
 		for (let i = 0; i < cardInfo.length; i++) {
 			cards.push(
 				<Row key={`project-card-row-${i}`}>
